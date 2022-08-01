@@ -8,7 +8,7 @@ function Body() {
   const [active, setActive] = useState(false);
   let interval = setInterval(() => {
     setActive(!active);
-  }, 5000);
+  }, 3000);
 
   return (
     <Box width="100%" height="100vh">

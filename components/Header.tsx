@@ -22,28 +22,33 @@ function Header() {
     };
   }, []);
 
-  // const Scrol = () => {
-  //   if (window.scrollY > 0) {
-  //     setIsScrolled(true);
-  //   } else {
-  //     setIsScrolled(false);
-  //   }
-  // };
-
   return (
     <header className={`${isScrolled && "red"}`}>
       <Box width="100%" height="30px" display="flex">
         <Box
           width={{ xs: "100%", sm: "100%", md: "50%", lg: "50%", xl: "50%" }}
           display="flex"
-          justifyContent="center"
+          ml={{ xs: "1px", sm: "1px", md: "100px", lg: "100px", xl: "100px" }}
+          justifyContent={{
+            xs: "center",
+            sm: "center",
+            md: "start",
+            lg: "start",
+            xl: "start",
+          }}
           alignItems="center"
         >
           <Box
-            width={{ xs: "40%", sm: "30%", md: "25%", lg: "25%", xl: "30%" }}
+            width={{ xs: "30%", sm: "20%", md: "25%", lg: "20%", xl: "15%" }}
             height="20px"
-            display={{ xs: "flex" }}
-            justifyContent={{ xs: "center" }}
+            display="flex"
+            justifyContent={{
+              xs: "center",
+              sm: "center",
+              md: "start",
+              lg: "start",
+              xl: "start",
+            }}
           >
             <Image src={image} />
           </Box>
@@ -69,3 +74,5 @@ function Header() {
 }
 
 export default Header;
+
+<Image src={image} />;

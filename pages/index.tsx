@@ -7,8 +7,6 @@ import Join from "../components/Join";
 import Player from "../components/Player";
 import Products from "../components/Products";
 
-import SlideShow from "../components/SlideShow";
-
 const Home: NextPage = () => {
   return (
     <div>

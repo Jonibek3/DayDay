@@ -82,7 +82,7 @@ function Products() {
       flexWrap="wrap"
       justifyContent={{
         xs: "center",
-        sm: "center",
+        sm: "start",
         md: "center",
         lg: "start",
         xl: "start",
@@ -96,8 +96,8 @@ function Products() {
           mb={{ xs: "50px" }}
           width={{
             xs: "300px",
-            sm: "300px",
-            md: "270",
+            sm: "250px",
+            md: "250px",
             lg: "270px",
             xl: "300px",
           }}
