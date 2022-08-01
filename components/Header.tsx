@@ -50,7 +50,7 @@ function Header() {
               xl: "start",
             }}
           >
-            <Image src={image} />
+            <Image alt="img" src={image} />
           </Box>
         </Box>
         <Box
@@ -74,5 +74,3 @@ function Header() {
 }
 
 export default Header;
-
-<Image src={image} />;

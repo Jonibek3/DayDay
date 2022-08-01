@@ -1,11 +1,4 @@
-import {
-  Facebook,
-  FacebookOutlined,
-  FacebookRounded,
-  FacebookSharp,
-  Instagram,
-  YouTube,
-} from "@mui/icons-material";
+import { Facebook, Instagram, YouTube } from "@mui/icons-material";
 import { Box } from "@mui/material";
 import React from "react";
 

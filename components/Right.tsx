@@ -8,9 +8,7 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import InboxIcon from "@mui/icons-material/MoveToInbox";
-import MailIcon from "@mui/icons-material/Mail";
-import { Call, Facebook, InfoOutlined, Send } from "@mui/icons-material";
+import { Call, InfoOutlined, Send } from "@mui/icons-material";
 import MenuIcon from "@mui/icons-material/Menu";
 
 type Anchor = "left";

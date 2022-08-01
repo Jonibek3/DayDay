@@ -92,6 +92,7 @@ function Products() {
       <h1 className="h1">Products</h1>
       {arr.map((item, index) => (
         <Box
+          key={index}
           mt={{ xs: "50px" }}
           mb={{ xs: "50px" }}
           width={{
@@ -105,6 +106,7 @@ function Products() {
           textAlign="center"
         >
           <Image
+            alt="img"
             width="250px"
             height="300px"
             src={item.Image}

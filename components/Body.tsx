@@ -1,8 +1,5 @@
 import { Box } from "@mui/material";
-import { log } from "console";
-import Image from "next/image";
 import { useState } from "react";
-import img from "../public/img/image_1548680951700_2500.jpeg";
 
 function Body() {
   const [active, setActive] = useState(false);
